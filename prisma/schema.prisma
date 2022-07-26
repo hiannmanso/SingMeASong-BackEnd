@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Recommendation {
+  id          Int    @id @default(autoincrement())
+  name        String @unique
+  youtubeLink String
+  score       Int    @default(0)
+
+  @@map("recommendations")
+}
