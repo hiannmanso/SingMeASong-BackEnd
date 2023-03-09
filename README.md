@@ -27,11 +27,6 @@ O projeto consiste em aplicar as tecnicas de testes unitários, de integração 
 
 Para executar este projeto, você precisará adicionar as seguintes variáveis de ambiente aos seus arquivos
 
-#### Front-end
-
-```
-REACT_APP_API_BASE_URL = API URL
-```
 
 #### Back-end
 
